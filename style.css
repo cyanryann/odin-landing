@@ -36,16 +36,17 @@ ul {
 li {
     list-style-type: none;
 }
-img {
-    max-width: 300px;
+.middle img {
+    width: 40%;
     margin: 20px;
 }
 .pictures {
     display: flex;
     margin: 50px;
+    justify-content: space-between;
 }
 .information {
-    width:220px;
+    width:20%;
     margin: 10px;
     text-align: center;
 }
