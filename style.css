@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+* {
+    border: 1px black solid;
+    font-family: 'Roboto';
+}
+ul {
+    display: flex;
+    margin-right: 40px;
+    gap: 8px;
+}
+.logo {
+    margin-left: 40px;
+}
+.middle {
+    display: flex;
+}
+li {
+    list-style-type: none;
+}
