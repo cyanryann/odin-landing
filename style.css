@@ -5,6 +5,15 @@ header {
 * {
     border: 1px black solid;
     font-family: 'Roboto';
+
+    color: white;
+}
+body {
+    background-color: #1F2937;
+}
+h1 {
+    font-size: 48px;
+    margin-left: 20px;
 }
 ul {
     display: flex;
@@ -16,7 +25,38 @@ ul {
 }
 .middle {
     display: flex;
+    margin: 30px;
+    color: #f9faf8;
+}
+.middle p {
+    margin: 0 20px;
+    color: #E5E7Eb;
+    font-size: 18px;
 }
 li {
     list-style-type: none;
+}
+img {
+    max-width: 300px;
+    margin: 20px;
+}
+.pictures {
+    display: flex;
+    margin: 50px;
+}
+.information {
+    width:220px;
+    margin: 10px;
+    text-align: center;
+}
+.information p {
+    color: black;
+}
+.information img {
+    border: #3882F6 3px solid;
+    border-radius: 10px;
+    width: 100px;
+}
+.after-middle {
+    background-color: white;
 }
