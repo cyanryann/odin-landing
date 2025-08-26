@@ -99,3 +99,35 @@ li {
 .action {
     background-color: white;
 }
+.bluebubble {
+    background-color: #3882F6;
+    margin: 50px 80px;
+    padding: 10px;
+    border:#3882F6 1px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.bluebubble .title {
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bluebubble p {
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 300;
+}
+button {
+    background-color: #3882F6;
+    border: white solid 1px;
+    font-size: 20px;
+    margin-right: 50px;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+.copyright {
+    margin: 10px;
+    font-weight: 200;
+    text-align: center;
+}
