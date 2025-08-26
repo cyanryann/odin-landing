@@ -19,6 +19,8 @@ header p {
 }
 body {
     background-color: #1F2937;
+    display:flex;
+    flex-direction: column;
 }
 h1 {
     font-size: 48px;
@@ -72,6 +74,7 @@ li {
 }
 .after-middle {
     background-color: white;
+    padding:20px;
 }
 .after-middle h2 {
     color: black;
@@ -79,6 +82,7 @@ li {
 }
 .quote {
     background-color: #e5e7eb;
+    padding:20px;
 }
 .quote p {
     color: #1f2937;
@@ -86,4 +90,12 @@ li {
     font-size: 36px;
     text-align: center;
     font-weight: lighter;
+}
+.quote h4 {
+    text-align: center;
+    color: #1f2937;
+    font-size: 20px;
+}
+.action {
+    background-color: white;
 }
